@@ -1,0 +1,16 @@
+name: myenv
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+
+  - pip:
+      - torchcodec
+      - librosa
+      - jiwer
+      - speechbrain
+      - huggingface_hub==0.16.4
