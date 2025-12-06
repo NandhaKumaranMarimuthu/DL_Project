@@ -1,0 +1,30 @@
+name: tts-finetune-hf
+channels:
+  - defaults
+dependencies:
+  - python==3.12
+  - pip
+  - numpy<2
+  - pyyaml
+  - matplotlib
+  - jupyter
+  - pytest
+  - tqdm
+
+  - pip:
+    - transformers
+    - datasets
+    - soundfile
+    - speechbrain
+    - accelerate
+
+#Note: Please note that this environment does NOT have PyTorch Installation.
+#To install PyTorch, refer to the actual documentation and download the version suitable to your GPU/CPU resources. 
+ #conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+
+#conda install -c conda-forge libsndfile
+#conda install "ffmpeg"
+
+
+
+
