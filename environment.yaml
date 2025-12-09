@@ -18,12 +18,15 @@ dependencies:
     - speechbrain
     - accelerate
 
-#Note: Please note that this environment does NOT have PyTorch Installation.
-#To install PyTorch, refer to the actual documentation and download the version suitable to your GPU/CPU resources. 
+
+#To install PyTorch, follow instructions below
  #conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 
+#Please install the files below as well
 #conda install -c conda-forge libsndfile
 #conda install "ffmpeg"
+#pip install jiwer
+#pip install librosa
 
 
 
